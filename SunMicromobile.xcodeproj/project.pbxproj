@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D881F061DF94B5000311430 /* SMMakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D881F051DF94B5000311430 /* SMMakeViewController.m */; };
 		20B98EED1C01CFFD00457BBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B98EEC1C01CFFD00457BBD /* main.m */; };
 		20B98EF01C01CFFD00457BBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B98EEF1C01CFFD00457BBD /* AppDelegate.m */; };
 		20B98EF31C01CFFD00457BBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B98EF21C01CFFD00457BBD /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D881F041DF94B5000311430 /* SMMakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMakeViewController.h; sourceTree = "<group>"; };
+		1D881F051DF94B5000311430 /* SMMakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMakeViewController.m; sourceTree = "<group>"; };
 		20B98EE81C01CFFD00457BBD /* SunMicromobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunMicromobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B98EEC1C01CFFD00457BBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20B98EEE1C01CFFD00457BBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D881F031DF94B3A00311430 /* heh */ = {
+			isa = PBXGroup;
+			children = (
+				1D881F041DF94B5000311430 /* SMMakeViewController.h */,
+				1D881F051DF94B5000311430 /* SMMakeViewController.m */,
+			);
+			name = heh;
+			sourceTree = "<group>";
+		};
 		20B98EDF1C01CFFD00457BBD = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		20B98EEA1C01CFFD00457BBD /* SunMicromobile */ = {
 			isa = PBXGroup;
 			children = (
+				1D881F031DF94B3A00311430 /* heh */,
 				20B98EEE1C01CFFD00457BBD /* AppDelegate.h */,
 				20B98EEF1C01CFFD00457BBD /* AppDelegate.m */,
 				20B98EF11C01CFFD00457BBD /* ViewController.h */,
@@ -272,6 +285,7 @@
 			files = (
 				20B98EF31C01CFFD00457BBD /* ViewController.m in Sources */,
 				20B98EF01C01CFFD00457BBD /* AppDelegate.m in Sources */,
+				1D881F061DF94B5000311430 /* SMMakeViewController.m in Sources */,
 				20B98EED1C01CFFD00457BBD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +510,7 @@
 				20B98F171C01CFFD00457BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20B98F181C01CFFD00457BBD /* Build configuration list for PBXNativeTarget "SunMicromobileTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				20B98F1A1C01CFFD00457BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20B98F1B1C01CFFD00457BBD /* Build configuration list for PBXNativeTarget "SunMicromobileUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				20B98F1D1C01CFFD00457BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
